@@ -292,342 +292,384 @@ echo '
     <div class="mouse-cursor cursor-inner"></div>
     <!-- Mouse cursor area end here -->
 
+
     <main>
         <!-- Page banner area start here -->
         <section class="page-banner bg-image pt-130 pb-130" data-background="assets/images/banner/inner-banner.jpg">
             <div class="container">
-                <h2 class="wow fadeInUp mb-15" data-wow-duration="1.1s" data-wow-delay=".1s">shop layout 02</h2>
+                <h2 class="wow fadeInUp mb-15" data-wow-duration="1.1s" data-wow-delay=".1s">Shop Details</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
                     <a href="index.html" class="primary-hover"><i class="fa-solid fa-house me-1"></i> Home <i
                             class="fa-regular text-white fa-angle-right"></i></a>
-                    <span>shop layout 02</span>
+                    <a href="shop.html" class="primary-hover"> shop <i
+                            class="fa-regular text-white fa-angle-right"></i></a>
+                    <span>Shop Details</span>
                 </div>
             </div>
         </section>
         <!-- Page banner area end here -->
 
-        <!-- Product area start here -->
-        <section class="product-area pt-130 pb-130">
+        <!-- Shop single area start here -->
+        <section class="shop-single pt-130 pb-130">
             <div class="container">
-                <div class="pb-20 bor-bottom shop-page-wrp d-flex justify-content-between align-items-center mb-65">
-                    <p class="fw-600">Showing 1–12 of 17 results</p>
-                    <div class="short">
-                        <select name="shortList" id="shortList">
-                            <option value="0">Short by popularity</option>
-                            <option value="1">E-Cigarette</option>
-                            <option value="2">POP Extra</option>
-                            <option value="3">Charger Kit</option>
-                            <option value="4">100ml Nic</option>
-                            <option value="5">Salt Juice</option>
-                        </select>
+                <!-- product-details area start here -->
+                <div class="product-details-single pb-40">
+                    <div class="row g-4">
+                        <div class="col-lg-5">
+                            <div class="image img">
+                                <div class="swiper shop-single-slide">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop/01.jpg" alt="image">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop/02.jpg" alt="image">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop/03.jpg" alt="image">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop/04.jpg" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 swiper shop-slider-thumb">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide slide-smoll">
+                                            <img src="assets/images/shop/01.jpg" alt="image">
+                                        </div>
+                                        <div class="swiper-slide slide-smoll">
+                                            <img src="assets/images/shop/02.jpg" alt="image">
+                                        </div>
+                                        <div class="swiper-slide slide-smoll">
+                                            <img src="assets/images/shop/03.jpg" alt="image">
+                                        </div>
+                                        <div class="swiper-slide slide-smoll">
+                                            <img src="assets/images/shop/04.jpg" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="content h24">
+                                <h3 class="pb-2 primary-color">POP Extra Strawberry</h3>
+                                <div class="star primary-color pb-2">
+                                    <span><i class="fa-solid fa-star sm-font"></i></span>
+                                    <span><i class="fa-solid fa-star sm-font"></i></span>
+                                    <span><i class="fa-solid fa-star sm-font"></i></span>
+                                    <span><i class="fa-solid fa-star sm-font"></i></span>
+                                    <span><i class="fa-solid fa-star-half-stroke sm-font"></i></span>
+                                </div>
+                                <h2 class="pb-3">$440.00</h2>
+                                <h4 class="pb-2 primary-color">Product Description</h4>
+                                <p class="text-justify mb-10">Rapidiusly transform corporate expertise whereas
+                                    enterprise-wide
+                                    web
+                                    services.
+                                    Progressively whiteboard multifunctional
+                                    networks for pandemic total linkage a Synergistically recaptiualize client and based
+                                    methods of empowerment with
+                                    sustainable bandwidth.</p>
+                                <p class="text-justify">Progressively whiteboard multifunctional
+                                    networks for pandemic total linkage a Synergistically recaptiualize client and based
+                                    methods of empowerment with
+                                    sustainable bandwidth.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="details-area">
+                                        <div class="category flex-wrap mt-4 d-flex py-3 bor-top bor-bottom">
+                                            <h4 class="pe-3">Categories :</h4>
+                                            <a href="#0" class="primary-hover">Woman</a>
+                                            <span class="px-2">|</span>
+                                            <a href="#0" class="primary-hover">Man</a>
+                                            <span class="px-2">|</span>
+                                            <a href="#0" class="primary-hover">Kids</a>
+                                            <span class="px-2">|</span>
+                                            <a href="#0" class="primary-hover">Accessories</a>
+                                        </div>
+                                        <div class="d-flex flex-wrap py-3 bor-bottom">
+                                            <h4 class="pe-3">Tags :</h4>
+                                            <a href="#0" class="primary-hover">Fashion</a>
+                                            <span class="px-2">|</span>
+                                            <a href="#0" class="primary-hover">Lifestyle</a>
+                                            <span class="px-2">|</span>
+                                            <a href="#0" class="primary-hover">Travel</a>
+                                            <span class="px-2">|</span>
+                                            <a href="#0" class="primary-hover">Video</a>
+                                            <span class="px-2">|</span>
+                                            <a href="#0" class="primary-hover">Audio</a>
+                                        </div>
+                                        <div class="d-flex flex-wrap align-items-center py-3 bor-bottom">
+                                            <h4 class="pe-3">Share:</h4>
+                                            <div class="social-media">
+                                                <a href="#" class="mx-2 primary-color secondary-hover"><i
+                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="#" class="mx-2 primary-color secondary-hover"><i
+                                                        class="fa-brands fa-twitter"></i></a>
+                                                <a href="#" class="mx-2 primary-color secondary-hover"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                                <a href="#" class="mx-2 primary-color secondary-hover"><i
+                                                        class="fa-brands fa-instagram"></i></a>
+                                                <a href="#" class="mx-2 primary-color secondary-hover"><i
+                                                        class="fa-brands fa-pinterest-p"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="cart-wrp py-4">
+                                            <div class="cart-quantity">
+                                                <form id=\'myform\' method=\'POST\' class=\'quantity\' action=\'#\'>
+                                                    <input type=\'button\' value=\'-\' class=\'qtyminus minus\'>
+                                                    <input type=\'text\' name=\'quantity\' value=\'0\' class=\'qty\'>
+                                                    <input type=\'button\' value=\'+\' class=\'qtyplus plus\'>
+                                                </form>
+                                            </div>
+                                            <div class="discount">
+                                                <input type="text" placeholder="Enter Discount Code">
+                                            </div>
+                                        </div>
+                                        <a href="#0" class="d-block text-center btn-two mt-40"><span><i
+                                                    class="fa-solid fa-basket-shopping pe-2"></i>
+                                                add
+                                                to
+                                                cart</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row g-4">
-                    <div class="col-xl-9 col-lg-8">
-                        <div class="row g-4">
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image1.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image3.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Menthol
-                                                E-Cigarette Kit</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
+                <!-- product-details area end here -->
 
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image2.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image4.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Disposable
-                                                Sub-Ohm Tank</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image3.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image5.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">POP Extra
-                                                Strawberry</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image4.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image6.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Battery And
-                                                Charger Kit</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image5.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image3.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Pods Sold
-                                                Separately</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image6.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image4.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">100ml Nic
-                                                Salt Juice</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image7.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image8.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Disposable
-                                                Sub-Ohm Tank</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image8.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image1.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Battery And
-                                                Charger Kit</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="product__item bor">
-                                    <a href="#0" class="wishlist"><i class="fa-regular fa-heart"></i></a>
-                                    <a href="shop-single.html" class="product__image pt-20 d-block">
-                                        <img class="font-image" src="assets/images/product/product-image4.png"
-                                            alt="image">
-                                        <img class="back-image" src="assets/images/product/product-image3.png"
-                                            alt="image">
-                                    </a>
-                                    <div class="product__content">
-                                        <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">POP Extra
-                                                Strawberry</a></h4>
-                                        <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                        <div class="star mt-20">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                    </div>
-                                    <a class="product__cart d-block bor-top" href="#0"><i
-                                            class="fa-regular fa-cart-shopping primary-color me-1"></i> <span>Add to
-                                            cart</span></a>
-                                </div>
-                            </div>
+                <!-- description review area start here -->
+                <div class="shop-singe-tab">
+                    <ul class="nav nav-pills mb-4 bor-top bor-bottom py-2">
+                        <li class="nav-item">
+                            <a href="#description" data-bs-toggle="tab" class="nav-link ps-0 pe-3 active">
+                                <h4 class="text-uppercase">description</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#review" data-bs-toggle="tab" class="nav-link">
+                                <h4 class="text-uppercase">reviews (4)</h4>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="description" class="tab-pane fade show active">
+                            <p class="pb-4 text-justify">Proactively disseminate impactful mindshare without technically
+                                sound web
+                                services.
+                                Distiively harness
+                                compelling
+                                innovation before high payoff testing procedures. Uniquely fashion customized web
+                                services
+                                with cross
+                                functional
+                                internal or "organic" sources. Uniquely restore error-free e-commerce via
+                                multidisciplinary
+                                antailers.
+                                Completely whiteboard user friendly quality vectors rather than synergistic technologi
+                                Professionally
+                                evisculate
+                                enterprise wide metrics without resource maximizing interfaces. Synergistically
+                                benchmark
+                                enterprise-wide e-tailers
+                                through optimal paradigms. Phosfluorescently foster cutting-edge was and benefits
+                                without
+                                magnetic</p>
+                            <p class="pb-4 text-justify">Completely build emerging ideas through covalent applications.
+                                Distinctively
+                                synthesize user
+                                friendly
+                                collaboration and
+                                idsharing with superior content. Energistically incentivize user friendly models rather
+                                than
+                                timely
+                                convergence.
+                                Objectively disintermediate high standards in paradigms before state the art process
+                                improvements.
+                                Interactively
+                                orchestrate plug-and-play human capital whereas customer directed initiatives.</p>
+                            <p class="text-justify">Intrinsicly provide access to team driven information without
+                                adaptive content.
+                                Collaboratively embrace
+                                reliable supply
+                                chains via extensible benefits. Enthusiastically visualize accurate human capital before
+                                backend
+                                meta-services.
+                                Continually reinvent interdependent schemas through mission-critical benefits.
+                                Competently
+                                leverage
+                                existing parallel
+                                action items through end-to-end "outside the box" thinking.</p>
                         </div>
-                        <div class="pagi-wrp mt-65">
-                            <a href="#0" class="pagi-btn">01</a>
-                            <a href="#0" class="pagi-btn active">02</a>
-                            <a href="#0" class="pagi-btn ">03</a>
-                            <a href="#0" class="fa-regular ms-2 primary-hover fa-angle-right"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4">
-                        <div class="product__left-item sub-bg">
-                            <h4 class="mb-30">Special Offer</h4>
-                            <div class="image mb-30">
-                                <img src="assets/images/coundown/coundown-image1.png" alt="image">
-                            </div>
-                            <div class="product__content p-0">
-                                <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Mango Nic Salt
-                                        E-Liquidt</a></h4>
-                                <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                <div class="star mt-20">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                        <div id="review" class="tab-pane fade">
+                            <div class="review-wrp">
+                                <div class="abmin d-flex flex-wrap flex-md-nowrap align-items-center pb-4">
+                                    <div class="img pb-4 pb-md-0 me-4">
+                                        <img src="assets/images/about/comment3.png" alt="image">
+                                    </div>
+                                    <div class="content position-relative p-4 bor">
+                                        <div class="head-wrp pb-1 d-flex flex-wrap justify-content-between">
+                                            <a href="#0">
+                                                <h4 class="text-capitalize primary-color">Janaton Doe <span
+                                                        class="sm-font ms-2 fw-normal">27
+                                                        March 2023
+                                                        at
+                                                        3.44
+                                                        pm</span>
+                                                </h4>
+                                            </a>
+                                            <div class="star primary-color">
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star-half-stroke sm-font"></i></span>
+                                            </div>
+                                        </div>
+                                        <p class="text-justify">Globally leverage existing sticky testing procedures
+                                            whereas
+                                            timely
+                                            alignments. Appropriately leverage existing cross unit human a capital
+                                            Globally
+                                            distributed
+                                            process improvements and empowered
+                                            internal or sources. </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="image pt-40 mb-30 bor-top mt-40">
-                                <img src="assets/images/coundown/coundown-image2.png" alt="image">
-                            </div>
-                            <div class="product__content p-0">
-                                <h4 class="mb-15"><a class="primary-hover" href="shop-single.html">Watermelon Nic
-                                        Salt</a></h4>
-                                <del>$74.50</del><span class="primary-color ml-10">$49.50</span>
-                                <div class="star mt-20">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                <div class="abmin d-flex flex-wrap flex-md-nowrap align-items-center pb-4">
+                                    <div class="img pb-4 pb-md-0 me-4">
+                                        <img src="assets/images/about/comment2.png" alt="image">
+                                    </div>
+                                    <div class="content position-relative p-4 bor">
+                                        <div class="head-wrp pb-1 d-flex flex-wrap justify-content-between">
+                                            <a href="#0">
+                                                <h4 class="text-capitalize primary-color">kawser ahemd<span
+                                                        class="sm-font ms-2 fw-normal">27
+                                                        March 2023
+                                                        at
+                                                        3.44
+                                                        pm</span>
+                                                </h4>
+                                            </a>
+                                            <div class="star primary-color">
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star-half-stroke sm-font"></i></span>
+                                            </div>
+                                        </div>
+                                        <p class="text-justify">Globally leverage existing sticky testing procedures
+                                            whereas
+                                            timely
+                                            alignments. Appropriately leverage existing cross unit human a capital
+                                            Globally
+                                            distributed
+                                            process improvements and empowered
+                                            internal or sources. </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="product__coundown pt-30 bor-top mt-40">
-                                <h4>Hurry Up!</h4>
-                                <span>offer ends in</span>
-                                <div class="d-flex align-items-center gap-3 flex-wrap mt-25">
-                                    <div class="coundown-item">
-                                        <span id="day"></span>
-                                        <h6>Day</h6>
+                                <div class="abmin d-flex flex-wrap flex-md-nowrap align-items-center pb-4">
+                                    <div class="img pb-4 pb-md-0 me-4">
+                                        <img src="assets/images/about/comment1.png" alt="image">
                                     </div>
-                                    <div class="coundown-item">
-                                        <span id="hour"></span>
-                                        <h6>hour</h6>
+                                    <div class="content position-relative p-4 bor">
+                                        <div class="head-wrp pb-1 d-flex flex-wrap justify-content-between">
+                                            <a href="#0">
+                                                <h4 class="text-capitalize primary-color">famad sami<span
+                                                        class="sm-font ms-2 fw-normal">27
+                                                        March 2023
+                                                        at
+                                                        3.44
+                                                        pm</span>
+                                                </h4>
+                                            </a>
+                                            <div class="star primary-color">
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star-half-stroke sm-font"></i></span>
+                                            </div>
+                                        </div>
+                                        <p class="text-justify">Globally leverage existing sticky testing procedures
+                                            whereas
+                                            timely
+                                            alignments. Appropriately leverage existing cross unit human a capital
+                                            Globally
+                                            distributed
+                                            process improvements and empowered
+                                            internal or sources. </p>
                                     </div>
-                                    <div class="coundown-item">
-                                        <span id="min"></span>
-                                        <h6>min</h6>
+                                </div>
+                                <div class="abmin d-flex flex-wrap flex-md-nowrap align-items-center pb-4">
+                                    <div class="img pb-4 pb-md-0 me-4">
+                                        <img src="assets/images/about/comment4.png" alt="image">
                                     </div>
-                                    <div class="coundown-item">
-                                        <span id="sec"></span>
-                                        <h6>Sec</h6>
+                                    <div class="content position-relative p-4 bor">
+                                        <div class="head-wrp pb-1 d-flex flex-wrap justify-content-between">
+                                            <a href="#0">
+                                                <h4 class="text-capitalize primary-color">Abu rayhan <span
+                                                        class="sm-font ms-2 fw-normal">27
+                                                        March 2023
+                                                        at
+                                                        3.44
+                                                        pm</span>
+                                                </h4>
+                                            </a>
+                                            <div class="star primary-color">
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star sm-font"></i></span>
+                                                <span><i class="fa-solid fa-star-half-stroke sm-font"></i></span>
+                                            </div>
+                                        </div>
+                                        <p class="text-justify">Globally leverage existing sticky testing procedures
+                                            whereas
+                                            timely
+                                            alignments. Appropriately leverage existing cross unit human a capital
+                                            Globally
+                                            distributed
+                                            process improvements and empowered
+                                            internal or sources. </p>
+                                    </div>
+                                </div>
+                                <div class="section-title mt-5 py-15 mb-30">
+                                    <h2 class="text-capitalize primary-color mb-10">add a review</h2>
+                                    <p class="mb-20">Your email address will not be published. Required fields are
+                                        marked *
+                                    </p>
+                                    <div class="shop-single__rate-now">
+                                        <p>Rate this product? *</p>
+                                        <div class="star">
+                                            <span><i class="fa-solid fa-star"></i></span>
+                                            <span><i class="fa-solid fa-star"></i></span>
+                                            <span><i class="fa-solid fa-star"></i></span>
+                                            <span><i class="fa-solid fa-star"></i></span>
+                                            <span><i class="fa-solid fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-form">
+                                    <form action="#">
+                                        <div class="row g-4">
+                                            <div class="col-md-6">
+                                                <input type="text" class="w-100 mb-4 bor px-4 py-2"
+                                                    placeholder="Your Name*">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="email" class="w-100 mb-4 bor px-4 py-2"
+                                                    placeholder="Your Email*">
+                                            </div>
+                                        </div>
+                                        <textarea class="w-100 mb-4 bor p-4" placeholder="Message"></textarea>
+                                    </form>
+                                    <div class="btn-wrp">
+                                        <button class="btn-one"><span>Submit Now</span></button>
                                     </div>
                                 </div>
                             </div>
@@ -635,8 +677,9 @@ echo '
                     </div>
                 </div>
             </div>
+            <!-- description review area end here -->
         </section>
-        <!-- Product area end here -->
+        <!-- Shop single area end here -->
     </main>
 
     <!-- Footer area start here -->
